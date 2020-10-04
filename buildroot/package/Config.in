@@ -9,6 +9,8 @@ menu "Target packages"
 	source "package/skeleton-init-systemd/Config.in"
 	source "package/skeleton-init-sysv/Config.in"
 
+endmenu
+
 menu "Audio and video applications"
 	source "package/alsa-utils/Config.in"
 	source "package/atest/Config.in"
@@ -2475,4 +2477,6 @@ menu "Text editors and viewers"
 	source "package/vim/Config.in"
 endmenu
 
+menu "Hello world package for test"
+	source "package/helloworld/Config.in"
 endmenu
